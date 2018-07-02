@@ -1,8 +1,7 @@
 class School:
-    def __init__ (self, name, roster = {}, student_list = []):
+    def __init__ (self, name):
         self._name = name
-        self._roster = roster
-        self._student_list = student_list
+        self._roster = {}
 
     def roster(self):
         return self._roster
