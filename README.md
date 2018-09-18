@@ -23,11 +23,7 @@ In this lab, we will be using a school as our domain model.
 ### Part 1:
 Create a class, School, in the school.py file in your local directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context.
 
-> **Note:** you may want to load the autoreload extension from IPython
-```python
-%load_ext autoreload
-%autoreload 2
-```
+> **Note:** In this lab, we will be updating our `School` class with instance methods. If you would like to test each method as you go, remember to re-run the next cell to re-import your code. Otherwise, the jupyter notebook will not have read any of your updated code.
 
 
 ```python
