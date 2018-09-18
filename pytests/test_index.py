@@ -29,4 +29,4 @@ def test_school_sort_roster_method():
     example.add_student("Veronica Corningstone", 10)
     example.add_student("Brick Tamland", 10)
     example.add_student("Brian Fantana", 9)
-    assert example.sort_roster() == {11: ["Pedro", "Deb", "Napolean Dynamite"], 10: ["Brick Tamland", "Ron Burgundy", "Veronica Corningstone"], 9: ["Brian Fantana"]}
+    assert example.sort_roster() == {11: ['Deb', 'Napolean Dynamite', 'Pedro'], 10: ['Brick Tamland', 'Ron Burgundy', 'Veronica Corningstone'], 9: ['Brian Fantana']}
