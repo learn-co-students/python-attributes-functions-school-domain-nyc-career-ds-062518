@@ -1,0 +1,7 @@
+[
+  "test/index_test.py::test_school_class",
+  "test/index_test.py::test_school_roster_method",
+  "test/index_test.py::test_school_add_student_method",
+  "test/index_test.py::test_school_grade_method",
+  "test/index_test.py::test_school_sort_roster_method"
+]
